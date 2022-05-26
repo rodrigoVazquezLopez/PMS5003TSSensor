@@ -65,7 +65,7 @@ private:
     bool checkData();
 
 public:
-    HKA5_PMSensor(Stream &serial);
+    PMS5003TSSensor(Stream &serial);
     void begin();
     uint16_t getConcentrationPM1_0();
     uint16_t getConcentrationPM2_5();

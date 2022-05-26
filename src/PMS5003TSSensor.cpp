@@ -78,32 +78,32 @@ uint16_t PMS5003TSSensor::getConcentrationPM10_0()
 
 uint16_t PMS5003TSSensor::getNumberPariticlesBeyond0_3()
 {
-    return numPartAbove0_3;
+    return numPartBeyond0_3;
 }
 
 uint16_t PMS5003TSSensor::getNumberPariticlesBeyond0_5()
 {
-    return numPartAbove0_5;
+    return numPartBeyond0_5;
 }
 
 uint16_t PMS5003TSSensor::getNumberPariticlesBeyond1_0()
 {
-    return numPartAbove1_0;
+    return numPartBeyond1_0;
 }
 
 uint16_t PMS5003TSSensor::getNumberPariticlesBeyond2_5()
 {
-    return numPartAbove2_5;
+    return numPartBeyond2_5;
 }
 
 uint16_t PMS5003TSSensor::getNumberPariticlesBeyond5_0()
 {
-    return numPartAbove5_0;
+    return numPartBeyond5_0;
 }
 
 uint16_t PMS5003TSSensor::getNumberPariticlesBeyond10_0()
 {
-    return numPartAbove10_0;
+    return numPartBeyond10_0;
 }
 
 float PMS5003TSSensor::getFormaldehyde()
